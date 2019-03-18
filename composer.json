@@ -1,0 +1,20 @@
+{
+    "name": "crazydope/zip-ranges",
+    "description": "Обрабатывает http-range запросы и отдает zip-архив частями",
+    "authors": [
+        {
+            "name": "Agureev Dmitry",
+            "email": "crazydope@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "crazydope\\http\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^7.1",
+        "ext-zip": "*"
+    }
+}
